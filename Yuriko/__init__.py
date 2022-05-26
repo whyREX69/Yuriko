@@ -111,7 +111,6 @@ if ENV:
     ARQ_API_URL = "https://grambuilders.tech"
     ARQ_API_KEY = ARQ_API
 
-    ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
     try:
         BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
